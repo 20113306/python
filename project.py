@@ -7,7 +7,7 @@ from project_sort_functions import sort_map, sort_list
 window = Tk()
 window.title("Student Score Management Program")
 
-label_entry=Frame(window)
+label_entry = Frame(window)
 label_entry.grid(row=0, column=0, sticky=W)
 
 Label(label_entry, text='이름: ').grid(row=0, column=0, sticky=E)
